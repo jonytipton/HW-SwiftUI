@@ -1,7 +1,8 @@
 #  P5-WordScramble
 
 <p align="center">
-  <img src="" width="25%">
+  <img src="https://github.com/jonytipton/HW-SwiftUI/assets/42556403/c252903e-efe2-4ad6-807b-3813a35ab435" width="25%">
+
 </p>
 
 ## Summary
