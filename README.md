@@ -1,7 +1,8 @@
 #  P6-Animations (GuessTheFlag-Updates)
 
 <p align="center">
-  <img src="" width="25%">
+
+  <img src="https://github.com/jonytipton/HW-SwiftUI/assets/42556403/cb86132e-0971-4313-be22-88529e07770d" width="25%">
 </p>
 
 ## Summary
