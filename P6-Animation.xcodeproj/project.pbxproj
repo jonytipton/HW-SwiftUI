@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F6852D282A4D2A53003B5A4C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F6876B122A47720800360647 /* P6-Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "P6-Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6876B152A47720800360647 /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
 		F6876B172A47720800360647 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +36,7 @@
 		F6876B092A47720800360647 = {
 			isa = PBXGroup;
 			children = (
+				F6852D282A4D2A53003B5A4C /* README.md */,
 				F6876B142A47720800360647 /* GuessTheFlag */,
 				F6876B132A47720800360647 /* Products */,
 			);
