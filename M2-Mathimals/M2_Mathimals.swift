@@ -1,6 +1,6 @@
 //
-//  C1_EdutainmentApp.swift
-//  C1-Edutainment
+//  M2_Mathimals.swift
+//  M2-Mathimals
 //
 //  Created by Jonathan Tipton on 6/29/23.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct C1_EdutainmentApp: App {
+struct M2_Mathimals: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

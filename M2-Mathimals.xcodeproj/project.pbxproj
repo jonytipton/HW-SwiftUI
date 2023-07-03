@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F68C2C4F2A4E177A00FF7BA7 /* C1_EdutainmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C2C4E2A4E177A00FF7BA7 /* C1_EdutainmentApp.swift */; };
-		F68C2C512A4E177A00FF7BA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C2C502A4E177A00FF7BA7 /* ContentView.swift */; };
-		F68C2C532A4E177B00FF7BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68C2C522A4E177B00FF7BA7 /* Assets.xcassets */; };
-		F68C2C562A4E177B00FF7BA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68C2C552A4E177B00FF7BA7 /* Preview Assets.xcassets */; };
+		F6BA98312A5346C0001A1944 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BA982B2A5346C0001A1944 /* SettingsView.swift */; };
+		F6BA98322A5346C0001A1944 /* M2_Mathimals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BA982C2A5346C0001A1944 /* M2_Mathimals.swift */; };
+		F6BA98332A5346C0001A1944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BA982D2A5346C0001A1944 /* Assets.xcassets */; };
+		F6BA98342A5346C0001A1944 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BA982F2A5346C0001A1944 /* Preview Assets.xcassets */; };
+		F6BA98352A5346C0001A1944 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BA98302A5346C0001A1944 /* ContentView.swift */; };
+		F6BA98442A53475D001A1944 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BA98432A53475D001A1944 /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F68C2C4B2A4E177A00FF7BA7 /* C1-Edutainment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "C1-Edutainment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F68C2C4E2A4E177A00FF7BA7 /* C1_EdutainmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C1_EdutainmentApp.swift; sourceTree = "<group>"; };
-		F68C2C502A4E177A00FF7BA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F68C2C522A4E177B00FF7BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F68C2C552A4E177B00FF7BA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F68C2C4B2A4E177A00FF7BA7 /* M2-Mathimals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M2-Mathimals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BA982B2A5346C0001A1944 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F6BA982C2A5346C0001A1944 /* M2_Mathimals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M2_Mathimals.swift; sourceTree = "<group>"; };
+		F6BA982D2A5346C0001A1944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6BA982F2A5346C0001A1944 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6BA98302A5346C0001A1944 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6BA98432A53475D001A1944 /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +39,7 @@
 		F68C2C422A4E177A00FF7BA7 = {
 			isa = PBXGroup;
 			children = (
-				F68C2C4D2A4E177A00FF7BA7 /* C1-Edutainment */,
+				F6BA982A2A5346C0001A1944 /* M2-Mathimals */,
 				F68C2C4C2A4E177A00FF7BA7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,26 +47,28 @@
 		F68C2C4C2A4E177A00FF7BA7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F68C2C4B2A4E177A00FF7BA7 /* C1-Edutainment.app */,
+				F68C2C4B2A4E177A00FF7BA7 /* M2-Mathimals.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F68C2C4D2A4E177A00FF7BA7 /* C1-Edutainment */ = {
+		F6BA982A2A5346C0001A1944 /* M2-Mathimals */ = {
 			isa = PBXGroup;
 			children = (
-				F68C2C4E2A4E177A00FF7BA7 /* C1_EdutainmentApp.swift */,
-				F68C2C502A4E177A00FF7BA7 /* ContentView.swift */,
-				F68C2C522A4E177B00FF7BA7 /* Assets.xcassets */,
-				F68C2C542A4E177B00FF7BA7 /* Preview Content */,
+				F6BA982B2A5346C0001A1944 /* SettingsView.swift */,
+				F6BA98432A53475D001A1944 /* QuestionView.swift */,
+				F6BA982C2A5346C0001A1944 /* M2_Mathimals.swift */,
+				F6BA982D2A5346C0001A1944 /* Assets.xcassets */,
+				F6BA982E2A5346C0001A1944 /* Preview Content */,
+				F6BA98302A5346C0001A1944 /* ContentView.swift */,
 			);
-			path = "C1-Edutainment";
+			path = "M2-Mathimals";
 			sourceTree = "<group>";
 		};
-		F68C2C542A4E177B00FF7BA7 /* Preview Content */ = {
+		F6BA982E2A5346C0001A1944 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F68C2C552A4E177B00FF7BA7 /* Preview Assets.xcassets */,
+				F6BA982F2A5346C0001A1944 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F68C2C4A2A4E177A00FF7BA7 /* C1-Edutainment */ = {
+		F68C2C4A2A4E177A00FF7BA7 /* M2-Mathimals */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F68C2C592A4E177B00FF7BA7 /* Build configuration list for PBXNativeTarget "C1-Edutainment" */;
+			buildConfigurationList = F68C2C592A4E177B00FF7BA7 /* Build configuration list for PBXNativeTarget "M2-Mathimals" */;
 			buildPhases = (
 				F68C2C472A4E177A00FF7BA7 /* Sources */,
 				F68C2C482A4E177A00FF7BA7 /* Frameworks */,
@@ -82,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = "C1-Edutainment";
+			name = "M2-Mathimals";
 			productName = "C1-Edutainment";
-			productReference = F68C2C4B2A4E177A00FF7BA7 /* C1-Edutainment.app */;
+			productReference = F68C2C4B2A4E177A00FF7BA7 /* M2-Mathimals.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F68C2C462A4E177A00FF7BA7 /* Build configuration list for PBXProject "C1-Edutainment" */;
+			buildConfigurationList = F68C2C462A4E177A00FF7BA7 /* Build configuration list for PBXProject "M2-Mathimals" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F68C2C4A2A4E177A00FF7BA7 /* C1-Edutainment */,
+				F68C2C4A2A4E177A00FF7BA7 /* M2-Mathimals */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F68C2C562A4E177B00FF7BA7 /* Preview Assets.xcassets in Resources */,
-				F68C2C532A4E177B00FF7BA7 /* Assets.xcassets in Resources */,
+				F6BA98342A5346C0001A1944 /* Preview Assets.xcassets in Resources */,
+				F6BA98332A5346C0001A1944 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F68C2C512A4E177A00FF7BA7 /* ContentView.swift in Sources */,
-				F68C2C4F2A4E177A00FF7BA7 /* C1_EdutainmentApp.swift in Sources */,
+				F6BA98442A53475D001A1944 /* QuestionView.swift in Sources */,
+				F6BA98322A5346C0001A1944 /* M2_Mathimals.swift in Sources */,
+				F6BA98352A5346C0001A1944 /* ContentView.swift in Sources */,
+				F6BA98312A5346C0001A1944 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +274,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"C1-Edutainment/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"M2-Mathimals/Preview Content\"";
 				DEVELOPMENT_TEAM = X67TLHFY58;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -280,7 +288,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "jonyTipton.C1-Edutainment";
+				PRODUCT_BUNDLE_IDENTIFIER = "jonyTipton.M2-Mathimals";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -295,7 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"C1-Edutainment/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"M2-Mathimals/Preview Content\"";
 				DEVELOPMENT_TEAM = X67TLHFY58;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -309,7 +317,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "jonyTipton.C1-Edutainment";
+				PRODUCT_BUNDLE_IDENTIFIER = "jonyTipton.M2-Mathimals";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F68C2C462A4E177A00FF7BA7 /* Build configuration list for PBXProject "C1-Edutainment" */ = {
+		F68C2C462A4E177A00FF7BA7 /* Build configuration list for PBXProject "M2-Mathimals" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F68C2C572A4E177B00FF7BA7 /* Debug */,
@@ -329,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F68C2C592A4E177B00FF7BA7 /* Build configuration list for PBXNativeTarget "C1-Edutainment" */ = {
+		F68C2C592A4E177B00FF7BA7 /* Build configuration list for PBXNativeTarget "M2-Mathimals" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F68C2C5A2A4E177B00FF7BA7 /* Debug */,
