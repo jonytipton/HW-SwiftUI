@@ -11,6 +11,16 @@
 		F61F26B82A5A605900A4A13C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F26B72A5A605900A4A13C /* ContentView.swift */; };
 		F61F26BA2A5A605A00A4A13C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61F26B92A5A605A00A4A13C /* Assets.xcassets */; };
 		F61F26BD2A5A605A00A4A13C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61F26BC2A5A605A00A4A13C /* Preview Assets.xcassets */; };
+		F61F26C42A5A622300A4A13C /* CreatingCustomPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F26C32A5A622300A4A13C /* CreatingCustomPaths.swift */; };
+		F61F26C72A5A62FA00A4A13C /* PathsVsShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F26C62A5A62FA00A4A13C /* PathsVsShapes.swift */; };
+		F61F26C92A5A65B500A4A13C /* Adding_strokeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F26C82A5A65B500A4A13C /* Adding_strokeBorder.swift */; };
+		F61F26CB2A5B11EC00A4A13C /* TransformShapesWithCGAffineTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F26CA2A5B11EC00A4A13C /* TransformShapesWithCGAffineTransform.swift */; };
+		F61F26CD2A5B17D800A4A13C /* ImagePaintDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F26CC2A5B17D800A4A13C /* ImagePaintDrawing.swift */; };
+		F61F26D42A5B19FC00A4A13C /* MetalRenderingWith_drawingGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F26D32A5B19FC00A4A13C /* MetalRenderingWith_drawingGroup.swift */; };
+		F61F26D62A5B1D6D00A4A13C /* SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F26D52A5B1D6D00A4A13C /* SpecialEffects.swift */; };
+		F61F26D82A5B224600A4A13C /* AnimatingSimpleShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F26D72A5B224600A4A13C /* AnimatingSimpleShapes.swift */; };
+		F61F26DA2A5B24B800A4A13C /* AnimatingComplexShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F26D92A5B24B800A4A13C /* AnimatingComplexShapes.swift */; };
+		F61F26DC2A5B275000A4A13C /* Spirograph.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F26DB2A5B275000A4A13C /* Spirograph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		F61F26B72A5A605900A4A13C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F61F26B92A5A605A00A4A13C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F61F26BC2A5A605A00A4A13C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F61F26C32A5A622300A4A13C /* CreatingCustomPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingCustomPaths.swift; sourceTree = "<group>"; };
+		F61F26C62A5A62FA00A4A13C /* PathsVsShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathsVsShapes.swift; sourceTree = "<group>"; };
+		F61F26C82A5A65B500A4A13C /* Adding_strokeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adding_strokeBorder.swift; sourceTree = "<group>"; };
+		F61F26CA2A5B11EC00A4A13C /* TransformShapesWithCGAffineTransform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformShapesWithCGAffineTransform.swift; sourceTree = "<group>"; };
+		F61F26CC2A5B17D800A4A13C /* ImagePaintDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaintDrawing.swift; sourceTree = "<group>"; };
+		F61F26D32A5B19FC00A4A13C /* MetalRenderingWith_drawingGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRenderingWith_drawingGroup.swift; sourceTree = "<group>"; };
+		F61F26D52A5B1D6D00A4A13C /* SpecialEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffects.swift; sourceTree = "<group>"; };
+		F61F26D72A5B224600A4A13C /* AnimatingSimpleShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingSimpleShapes.swift; sourceTree = "<group>"; };
+		F61F26D92A5B24B800A4A13C /* AnimatingComplexShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingComplexShapes.swift; sourceTree = "<group>"; };
+		F61F26DB2A5B275000A4A13C /* Spirograph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spirograph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +73,7 @@
 			children = (
 				F61F26B52A5A605900A4A13C /* P9_DrawingApp.swift */,
 				F61F26B72A5A605900A4A13C /* ContentView.swift */,
+				F61F26C52A5A625800A4A13C /* Code-Along */,
 				F61F26B92A5A605A00A4A13C /* Assets.xcassets */,
 				F61F26BB2A5A605A00A4A13C /* Preview Content */,
 			);
@@ -65,6 +86,23 @@
 				F61F26BC2A5A605A00A4A13C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F61F26C52A5A625800A4A13C /* Code-Along */ = {
+			isa = PBXGroup;
+			children = (
+				F61F26C32A5A622300A4A13C /* CreatingCustomPaths.swift */,
+				F61F26C62A5A62FA00A4A13C /* PathsVsShapes.swift */,
+				F61F26C82A5A65B500A4A13C /* Adding_strokeBorder.swift */,
+				F61F26CA2A5B11EC00A4A13C /* TransformShapesWithCGAffineTransform.swift */,
+				F61F26CC2A5B17D800A4A13C /* ImagePaintDrawing.swift */,
+				F61F26D32A5B19FC00A4A13C /* MetalRenderingWith_drawingGroup.swift */,
+				F61F26D52A5B1D6D00A4A13C /* SpecialEffects.swift */,
+				F61F26D72A5B224600A4A13C /* AnimatingSimpleShapes.swift */,
+				F61F26D92A5B24B800A4A13C /* AnimatingComplexShapes.swift */,
+				F61F26DB2A5B275000A4A13C /* Spirograph.swift */,
+			);
+			path = "Code-Along";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +175,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F61F26D82A5B224600A4A13C /* AnimatingSimpleShapes.swift in Sources */,
+				F61F26CD2A5B17D800A4A13C /* ImagePaintDrawing.swift in Sources */,
+				F61F26DC2A5B275000A4A13C /* Spirograph.swift in Sources */,
+				F61F26C42A5A622300A4A13C /* CreatingCustomPaths.swift in Sources */,
 				F61F26B82A5A605900A4A13C /* ContentView.swift in Sources */,
+				F61F26DA2A5B24B800A4A13C /* AnimatingComplexShapes.swift in Sources */,
 				F61F26B62A5A605900A4A13C /* P9_DrawingApp.swift in Sources */,
+				F61F26CB2A5B11EC00A4A13C /* TransformShapesWithCGAffineTransform.swift in Sources */,
+				F61F26D62A5B1D6D00A4A13C /* SpecialEffects.swift in Sources */,
+				F61F26D42A5B19FC00A4A13C /* MetalRenderingWith_drawingGroup.swift in Sources */,
+				F61F26C92A5A65B500A4A13C /* Adding_strokeBorder.swift in Sources */,
+				F61F26C72A5A62FA00A4A13C /* PathsVsShapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
