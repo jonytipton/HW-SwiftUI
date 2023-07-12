@@ -8,14 +8,44 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
+   
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        GeometryReader { geo in
+            NavigationView {
+                ScrollView(.vertical) {
+                    VStack() {
+                        
+                            
+                        
+                        
+                        
+                        HStack {
+                            List {
+                                Section("ToDo") {
+                                    Text("wash dishes")
+                                    
+                                    Text("eat")
+                                }
+                                
+                                Section("Completed") {
+                                    
+                                }
+                            }
+                            .frame(height: geo.size.height / 2)
+                            .font(.callout.bold())
+                            .foregroundStyle(.black)
+                            .scrollContentBackground(.hidden)
+                            .listStyle(.insetGrouped)
+                        }
+                    }
+                }
+                .navigationTitle("TrackitHabit")
+                .background(Gradient(colors: [.white, .teal.opacity(0.3), .teal]))
+            }
         }
-        .padding()
     }
 }
 
