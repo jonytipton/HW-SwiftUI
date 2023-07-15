@@ -13,6 +13,12 @@
 		F61F26F12A5E0B1A00A4A13C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61F26F02A5E0B1A00A4A13C /* Preview Assets.xcassets */; };
 		F61F26F82A5E0E4E00A4A13C /* InsetArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F26F72A5E0E4E00A4A13C /* InsetArc.swift */; };
 		F61F26FA2A5E360200A4A13C /* HabitRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F26F92A5E360200A4A13C /* HabitRingView.swift */; };
+		F61F26FE2A5F397700A4A13C /* RingShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F26FD2A5F397700A4A13C /* RingShape.swift */; };
+		F61F27002A5F3B7F00A4A13C /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F26FF2A5F3B7F00A4A13C /* RingView.swift */; };
+		F6EB04972A63799200A4C8F9 /* Habits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EB04962A63799200A4C8F9 /* Habits.swift */; };
+		F6EB04992A6379D400A4C8F9 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EB04982A6379D400A4C8F9 /* Habit.swift */; };
+		F6EB049B2A637AE100A4C8F9 /* AddHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EB049A2A637AE100A4C8F9 /* AddHabitView.swift */; };
+		F6EB049D2A6383BD00A4C8F9 /* DetailHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EB049C2A6383BD00A4C8F9 /* DetailHabitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +29,12 @@
 		F61F26F02A5E0B1A00A4A13C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F61F26F72A5E0E4E00A4A13C /* InsetArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetArc.swift; sourceTree = "<group>"; };
 		F61F26F92A5E360200A4A13C /* HabitRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitRingView.swift; sourceTree = "<group>"; };
+		F61F26FD2A5F397700A4A13C /* RingShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingShape.swift; sourceTree = "<group>"; };
+		F61F26FF2A5F3B7F00A4A13C /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		F6EB04962A63799200A4C8F9 /* Habits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habits.swift; sourceTree = "<group>"; };
+		F6EB04982A6379D400A4C8F9 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		F6EB049A2A637AE100A4C8F9 /* AddHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitView.swift; sourceTree = "<group>"; };
+		F6EB049C2A6383BD00A4C8F9 /* DetailHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHabitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +51,10 @@
 		F61F26DD2A5E0B1800A4A13C = {
 			isa = PBXGroup;
 			children = (
+				F6EB049C2A6383BD00A4C8F9 /* DetailHabitView.swift */,
+				F6EB049A2A637AE100A4C8F9 /* AddHabitView.swift */,
+				F6EB04982A6379D400A4C8F9 /* Habit.swift */,
+				F6EB04962A63799200A4C8F9 /* Habits.swift */,
 				F61F26E82A5E0B1800A4A13C /* M3-TrackitHabit */,
 				F61F26E72A5E0B1800A4A13C /* Products */,
 			);
@@ -58,6 +74,8 @@
 				F61F26E92A5E0B1800A4A13C /* M3_TrackitHabitApp.swift */,
 				F61F26EB2A5E0B1800A4A13C /* ContentView.swift */,
 				F61F26F92A5E360200A4A13C /* HabitRingView.swift */,
+				F61F26FF2A5F3B7F00A4A13C /* RingView.swift */,
+				F61F26FD2A5F397700A4A13C /* RingShape.swift */,
 				F61F26F72A5E0E4E00A4A13C /* InsetArc.swift */,
 				F61F26ED2A5E0B1A00A4A13C /* Assets.xcassets */,
 				F61F26EF2A5E0B1A00A4A13C /* Preview Content */,
@@ -143,10 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F61F27002A5F3B7F00A4A13C /* RingView.swift in Sources */,
 				F61F26EC2A5E0B1800A4A13C /* ContentView.swift in Sources */,
+				F61F26FE2A5F397700A4A13C /* RingShape.swift in Sources */,
 				F61F26FA2A5E360200A4A13C /* HabitRingView.swift in Sources */,
+				F6EB049D2A6383BD00A4C8F9 /* DetailHabitView.swift in Sources */,
 				F61F26EA2A5E0B1800A4A13C /* M3_TrackitHabitApp.swift in Sources */,
+				F6EB049B2A637AE100A4C8F9 /* AddHabitView.swift in Sources */,
 				F61F26F82A5E0E4E00A4A13C /* InsetArc.swift in Sources */,
+				F6EB04992A6379D400A4C8F9 /* Habit.swift in Sources */,
+				F6EB04972A63799200A4C8F9 /* Habits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

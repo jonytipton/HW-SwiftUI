@@ -10,10 +10,17 @@ import SwiftUI
 struct HabitRingView: View {
     @State private var habitCount: Int
     @State private var completedCount: Int
+    @State private var show = false
+    @State private var stop = 0.0
     
-    @State private var percentComplete: Double = 0.0
+    var percentComplete: Double = 0.0
     
     var arcStartAngle: Angle = .zero
+    var arcEndAngle: Angle {
+            let ratio = Double(completedCount) / Double(habitCount)
+        let angle: Angle = .degrees(360.0 * ratio)
+        return angle
+    }
     
     var body: some View {
         ZStack {
@@ -21,15 +28,23 @@ struct HabitRingView: View {
                     .inset(by: 30)
                     .stroke(Color(red: 0.95, green: 0.95, blue: 0.95), style: StrokeStyle(lineWidth: 40, lineCap: .round))
                 
-            InsetArc(startAngle: arcStartAngle, endAngle: .degrees(360 * percentComplete), clockwise: true)
+            InsetArc(startAngle: arcStartAngle, endAngle: arcEndAngle, clockwise: true)
                     .inset(by: 30)
+                    .trim(from: show ? 1/8 : 1, to: 0.9)
                     .stroke(AngularGradient(
                         gradient: Gradient(colors: [.clear, .mint]),
                         center: .center,
                         startAngle: .degrees(-90),
-                        endAngle: .degrees(360 * percentComplete) - .degrees(90)),
+                        endAngle: arcEndAngle - .degrees(90)),
                             style: StrokeStyle(lineWidth: 40, lineCap: .round))
                     .shadow(color: .mint.opacity(0.5), radius: 10, x: 0, y: 0)
+                    .animation(Animation.easeIn(duration: 1), value: show)
+                    .onAppear {
+                        show.toggle()
+                        withAnimation {
+                            stop = 1
+                        }
+                    }
             VStack {
                 Text("Habits Remaining")
                     .font(.title3.bold())
@@ -42,11 +57,7 @@ struct HabitRingView: View {
         }
         .padding()
         .onTapGesture {
-                completedCount += 1
-            withAnimation {
-                percentComplete = Double(completedCount) / Double(habitCount)
-            }
-        }
+                completedCount += 1        }
     }
     
     init(habitCount: Int, completedCount: Int) {
