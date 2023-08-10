@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F648BA152A80A3E5007E98EE /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F648BA132A80A3E5007E98EE /* Singer+CoreDataClass.swift */; };
+		F648BA162A80A3E5007E98EE /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F648BA142A80A3E5007E98EE /* Singer+CoreDataProperties.swift */; };
+		F648BA182A80A4D1007E98EE /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F648BA172A80A4D1007E98EE /* FilteredList.swift */; };
+		F648BA1A2A80A79E007E98EE /* GenericFilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F648BA192A80A79E007E98EE /* GenericFilteredList.swift */; };
+		F648BA1F2A80ABA3007E98EE /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F648BA1B2A80ABA3007E98EE /* Candy+CoreDataClass.swift */; };
+		F648BA202A80ABA3007E98EE /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F648BA1C2A80ABA3007E98EE /* Candy+CoreDataProperties.swift */; };
+		F648BA212A80ABA3007E98EE /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F648BA1D2A80ABA3007E98EE /* Country+CoreDataClass.swift */; };
+		F648BA222A80ABA3007E98EE /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F648BA1E2A80ABA3007E98EE /* Country+CoreDataProperties.swift */; };
 		F6F7EA772A6B1C600050E25C /* P12_CoreDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7EA762A6B1C600050E25C /* P12_CoreDataApp.swift */; };
 		F6F7EA792A6B1C600050E25C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7EA782A6B1C600050E25C /* ContentView.swift */; };
 		F6F7EA7B2A6B1C620050E25C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F7EA7A2A6B1C620050E25C /* Assets.xcassets */; };
 		F6F7EA7E2A6B1C620050E25C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F7EA7D2A6B1C620050E25C /* Preview Assets.xcassets */; };
+		F6F7EA852A6B1C960050E25C /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7EA842A6B1C960050E25C /* DataController.swift */; };
+		F6F7EA882A6B1CC80050E25C /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6F7EA862A6B1CC80050E25C /* CoreDataProject.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F648BA132A80A3E5007E98EE /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F648BA142A80A3E5007E98EE /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F648BA172A80A4D1007E98EE /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
+		F648BA192A80A79E007E98EE /* GenericFilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericFilteredList.swift; sourceTree = "<group>"; };
+		F648BA1B2A80ABA3007E98EE /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Candy+CoreDataClass.swift"; path = "P12-CoreData/Candy+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F648BA1C2A80ABA3007E98EE /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Candy+CoreDataProperties.swift"; path = "P12-CoreData/Candy+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F648BA1D2A80ABA3007E98EE /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Country+CoreDataClass.swift"; path = "P12-CoreData/Country+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F648BA1E2A80ABA3007E98EE /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Country+CoreDataProperties.swift"; path = "P12-CoreData/Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F6F7EA732A6B1C600050E25C /* P12-CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "P12-CoreData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F7EA762A6B1C600050E25C /* P12_CoreDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P12_CoreDataApp.swift; sourceTree = "<group>"; };
 		F6F7EA782A6B1C600050E25C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F6F7EA7A2A6B1C620050E25C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6F7EA7D2A6B1C620050E25C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6F7EA842A6B1C960050E25C /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		F6F7EA872A6B1CC80050E25C /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +55,10 @@
 		F6F7EA6A2A6B1C600050E25C = {
 			isa = PBXGroup;
 			children = (
+				F648BA1B2A80ABA3007E98EE /* Candy+CoreDataClass.swift */,
+				F648BA1C2A80ABA3007E98EE /* Candy+CoreDataProperties.swift */,
+				F648BA1D2A80ABA3007E98EE /* Country+CoreDataClass.swift */,
+				F648BA1E2A80ABA3007E98EE /* Country+CoreDataProperties.swift */,
 				F6F7EA752A6B1C600050E25C /* P12-CoreData */,
 				F6F7EA742A6B1C600050E25C /* Products */,
 			);
@@ -51,8 +75,14 @@
 		F6F7EA752A6B1C600050E25C /* P12-CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				F648BA132A80A3E5007E98EE /* Singer+CoreDataClass.swift */,
+				F648BA142A80A3E5007E98EE /* Singer+CoreDataProperties.swift */,
 				F6F7EA762A6B1C600050E25C /* P12_CoreDataApp.swift */,
 				F6F7EA782A6B1C600050E25C /* ContentView.swift */,
+				F648BA192A80A79E007E98EE /* GenericFilteredList.swift */,
+				F648BA172A80A4D1007E98EE /* FilteredList.swift */,
+				F6F7EA842A6B1C960050E25C /* DataController.swift */,
+				F6F7EA862A6B1CC80050E25C /* CoreDataProject.xcdatamodeld */,
 				F6F7EA7A2A6B1C620050E25C /* Assets.xcassets */,
 				F6F7EA7C2A6B1C620050E25C /* Preview Content */,
 			);
@@ -138,7 +168,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6F7EA792A6B1C600050E25C /* ContentView.swift in Sources */,
+				F648BA202A80ABA3007E98EE /* Candy+CoreDataProperties.swift in Sources */,
+				F648BA162A80A3E5007E98EE /* Singer+CoreDataProperties.swift in Sources */,
+				F6F7EA852A6B1C960050E25C /* DataController.swift in Sources */,
+				F648BA212A80ABA3007E98EE /* Country+CoreDataClass.swift in Sources */,
+				F648BA152A80A3E5007E98EE /* Singer+CoreDataClass.swift in Sources */,
+				F648BA1A2A80A79E007E98EE /* GenericFilteredList.swift in Sources */,
+				F6F7EA882A6B1CC80050E25C /* CoreDataProject.xcdatamodeld in Sources */,
+				F648BA222A80ABA3007E98EE /* Country+CoreDataProperties.swift in Sources */,
 				F6F7EA772A6B1C600050E25C /* P12_CoreDataApp.swift in Sources */,
+				F648BA182A80A4D1007E98EE /* FilteredList.swift in Sources */,
+				F648BA1F2A80ABA3007E98EE /* Candy+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +379,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F6F7EA862A6B1CC80050E25C /* CoreDataProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F6F7EA872A6B1CC80050E25C /* CoreDataProject.xcdatamodel */,
+			);
+			currentVersion = F6F7EA872A6B1CC80050E25C /* CoreDataProject.xcdatamodel */;
+			path = CoreDataProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F6F7EA6B2A6B1C600050E25C /* Project object */;
 }
