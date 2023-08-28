@@ -8,33 +8,37 @@
 import SwiftUI
 
 struct UserDetailView: View {
-    let user: User
+    @Environment(\.managedObjectContext) var moc
+
+    let user: CachedUser
     let rows = [
         GridItem(.flexible())]
+    
+    //var selectedFriend: CachedUser? = nil
     
     var body: some View {
         
         VStack(spacing: 0) {
             List {
                 Section("About") {
-                    Text(user.about)
+                    Text(user.wrappedAbout)
                 }
                 Section("Age") {
                     Text("\(user.age)")
                 }
                 Section("Email") {
-                    Text(user.email)
+                    Text(user.wrappedEmail)
                 }
                 Section("Company") {
-                    Text(user.company)
+                    Text(user.wrappedCompany)
                 }
                 Section("Address") {
-                    Text("\(user.address)")
+                    Text("\(user.wrappedAddress)")
                 }
                 Section("Tags") {
                     ScrollView(.horizontal, showsIndicators: false) {
                         LazyHGrid(rows: rows, spacing: 10) {
-                            ForEach(user.tags, id: \.self) { tag in
+                            ForEach(user.wrappedTags.components(separatedBy: ","), id: \.self) { tag in
                                 Text(tag)
                                     .padding(5)
                                     .background(.teal, in: RoundedRectangle(cornerRadius: 8))
@@ -46,8 +50,8 @@ struct UserDetailView: View {
 
                 
                 Section("Friends") {
-                    ForEach(user.friends) { friend in
-                        Text(friend.name)
+                    ForEach(user.friendsArray) { friend in
+                            Text(friend.wrappedName)
                     }
                 }
                 
@@ -55,18 +59,26 @@ struct UserDetailView: View {
                     Text(user.isActive ? "Online" : "Offline")
                         .padding(5)
                         .background(user.isActive ? .green : .red, in: RoundedRectangle(cornerRadius: 8))
-                    Text(user.registered.description)
+                    Text(user.wrappedRegistered.description)
                 }
                 
             }
         }
-        .navigationTitle(user.name)
+        .navigationTitle(user.wrappedName)
     }
+    
+//    func lookupUserByID(_ id: UUID) {
+//        let request = CachedUser.fetchRequest()
+//        do {
+//            let users = try? moc.fetch(request)
+//            selectedFriend = users?.first(where: { $0.id == id })
+//        }
+//    }
 }
 
-struct UserDetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        let testUser = User()
-        UserDetailView(user: testUser)
-    }
-}
+//struct UserDetailView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        let testUser = User()
+//        UserDetailView(user: testUser)
+//    }
+//}
